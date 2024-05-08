@@ -1,0 +1,100 @@
+=================================================
+For SQL Master_Details & HR_Employee_Relationship
+=================================================
+
+SELECT EMP_ID, EMP_COMPANY, EMPLOYEE_NAME,LOB,LOC,CC, IS_ACTIVE  FROM KOTAK_UPM.dbo.Master_Details
+
+SELECT PERSON_NUMBER,RESPONSIBILITY_NAME, NEW_LOB, NEW_LOC, NEW_CC FROM KOTAK_UPM.dbo.HR_Employee_Relationship;
+
+
+INSERT INTO KOTAK_UPM.dbo.Master_Details
+	(EMP_ID, EMP_COMPANY, EMPLOYEE_NAME, LOB, LOC, CC, IS_ACTIVE )
+VALUES 
+	('111', 'a', 'aa',1 ,1 ,1 ,1),
+	('222', 'b', 'bb',2 ,2 ,2 ,1),
+	('333', 'c', 'cc',3 ,3 ,3 ,1),
+	('444', 'd', 'dd',4 ,4 ,4 ,1),
+	('555', 'e', 'ee',5 ,5 ,5 ,1),
+	('666', 'f', 'ff',6 ,6 ,6 ,1),
+	('777', 'g', 'gg',7 ,7 ,7 ,1),
+	('888', 'h', 'hh',8 ,8 ,8 ,1),
+	('999', 'i', 'ii',9 ,9 ,9 ,1),
+	('1010', 'j', 'jj',10 ,10 ,10 ,1);
+	
+	
+INSERT INTO KOTAK_UPM.dbo.HR_Employee_Relationship
+	(PERSON_NUMBER, RESPONSIBILITY_NAME, NEW_LOB, NEW_LOC, NEW_CC)
+VALUES 
+	('888', '8-8-8', 8, 8, 8 ),
+	('1010', '10-10-10', 10, 10, 10 );
+	
+	
+DELETE
+FROM
+	KOTAK_UPM.dbo.Master_Details;
+	
+
+DELETE
+FROM
+	KOTAK_UPM.dbo.HR_Employee_Relationship;
+	
+
+UPDATE
+	KOTAK_UPM.dbo.Master_Details
+SET
+	EMP_ID = '',
+	EMP_COMPANY = '',
+	EMPLOYEE_NAME = '',
+	LOB = ,
+	LOC = ,
+	CC = ,
+	IS_ACTIVE = ;
+WHERE ;
+
+
+=================================================
+For DB2 MASTER_DETAILS_BACKUP
+=================================================
+
+SELECT
+	EMP_ID,
+	EMP_COMPANY,
+	EMPLOYEE_NAME,
+	LOB,
+	LOC,
+	CC,
+	IS_ACTIVE,
+	HR_REPORTING
+FROM
+	KOTAKBACKUP.MASTER_DETAILS_BACKUP;
+
+
+INSERT INTO KOTAKBACKUP.MASTER_DETAILS_BACKUP
+	(EMP_ID, EMP_COMPANY, EMPLOYEE_NAME, LOB, LOC, CC, IS_ACTIVE )
+VALUES 
+	('111', 'a', 'aa',1 ,1 ,1 ,1),
+	('222', 'b', 'bb',2 ,2 ,2 ,1),
+	('333', 'c', 'cc',3 ,3 ,3 ,1),
+	('444', 'd', 'dd',4 ,4 ,4 ,1),
+	('555', 'e', 'ee',5 ,5 ,5 ,1),
+	('666', 'f', 'ff',6 ,6 ,6 ,1),
+	('777', 'g', 'gg',7 ,7 ,7 ,1),
+	('888', 'h', 'hh',8 ,8 ,8 ,1),
+	('999', 'i', 'ii',9 ,9 ,9 ,1),
+	('1010', 'j', 'jj',10 ,10 ,10 ,1);
+
+	
+
+UPDATE
+	KOTAKBACKUP.MASTER_DETAILS_BACKUP
+SET
+
+	HR_REPORTING = null;
+
+
+DELETE
+FROM
+	KOTAKBACKUP.MASTER_DETAILS_BACKUP;
+
+
+DELETE FROM KOTAKBACKUP.MASTER_DETAILS_BACKUP WHERE ;

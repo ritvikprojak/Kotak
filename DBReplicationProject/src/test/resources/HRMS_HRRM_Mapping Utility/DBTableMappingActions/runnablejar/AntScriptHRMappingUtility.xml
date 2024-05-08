@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project DBReplicationProject with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/admin/Desktop/HRMappingUtility.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="dDReplication.MasterSlaveDBreplication"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ log4j-1.2.17.jar ojdbc6.jar activation.jar mail.jar jpa.jar LdapAuthentication.jar unboundid-ldapsdk.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="C:/Users/NewKotakGit/DBReplicationProject/target/classes"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="log4j-1.2.17.jar"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="ojdbc6.jar"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="activation.jar"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="mail.jar"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="jpa.jar"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="LdapAuthentication.jar"/>
+            <zipfileset dir="C:\Users\NewKotakGit\DBReplicationProject\libfile" includes="unboundid-ldapsdk.jar"/>
+        </jar>
+    </target>
+</project>

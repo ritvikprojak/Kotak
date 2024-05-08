@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<project name="Kotak HRMS" default="all" basedir=".">
+
+	<target name="all" depends="clean,compile,jar" />
+
+	<path id="classpath">
+		<pathelement location="./lib/navigatorAPI.jar" />
+		<pathelement location="./lib/j2ee.jar" />
+		<pathelement location="./lib/cmbicmsdk81.jar" />
+		<pathelement location="./lib/commons-codec-1.3.jar" />
+		<pathelement location="./lib/Jace.jar" />
+		<pathelement location="./temp" />
+		<pathelement location="./src/Resource/config.properties" />
+	</path>
+
+	<target name="clean">
+		<delete dir="temp" />
+	</target>
+
+	<target name="compile">
+		<mkdir dir="temp" />
+		<javac srcdir="src" destdir="temp" source="1.8" target="1.8" debug="true">
+			<classpath refid="classpath" />
+			<include name="**/*.java" />
+		</javac>
+	</target>
+
+	<target name="jar">
+		<copy todir="temp">
+			<fileset dir="src">
+				<include name="**/WebContent/**" />
+			</fileset>
+		</copy>
+		<jar jarfile="Kotak HRMS.jar">
+			<fileset dir="./temp" includes="**/*" />
+			<fileset dir="./src/Resource">
+      			<include name="*.properties"/>
+    		</fileset>
+			<manifest>
+				<attribute name="Plugin-Class" value="com.projak.DMS.DocumentUploadAndSearch" />
+				<section name="build">
+					<attribute name="Built-By" value="${user.name}" />
+					<attribute name="Build" value="${TODAY}" />
+				</section>
+			</manifest>
+			
+		</jar>
+		<delete dir="./temp" />
+	</target>
+
+</project>

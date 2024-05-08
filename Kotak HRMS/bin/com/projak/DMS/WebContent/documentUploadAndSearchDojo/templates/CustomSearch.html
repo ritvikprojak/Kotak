@@ -1,0 +1,140 @@
+
+<div class=ecmCenterPane>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-4 card-body">
+				<form dojoType="dijit.form.Form" action="javascript:void(0);"
+					data-dojo-attach-point="searchemployeeform">
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">Employee Id:</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="searchEmployeeId"
+								dojoType="dijit.form.ValidationTextBox" class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">LOB :</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="LOB"
+								dojoType="dijit.form.ValidationTextBox" class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">LOC :</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="LOC"
+								dojoType="dijit.form.ValidationTextBox" class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">CC :</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="CC"
+								dojoType="dijit.form.ValidationTextBox" class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">Date of Joining :</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="DOJ"
+								dojoType="dijit/form/DateTextBox" constraints="{datePattern:'yyyy-MM-dd'}"  class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">Date of Group Joining :</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="DOGJ"
+								dojoType="dijit/form/DateTextBox" constraints="{datePattern:'yyyy-MM-dd'}"  class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col col-md-3">
+							<label for="text-input" class=" form-control-label label-text align-left">Last Date :</label>
+						</div>
+						<div class="col col-md-9 creditCardParent">
+							<input
+								data-dojo-attach-point="lastDate"
+								dojoType="dijit/form/DateTextBox" constraints="{datePattern:'yyyy-MM-dd'}"  class="form-control">
+						</div>
+					</div>
+					<div class="row form-group">
+							<div class="col col-md-3">
+								<label for="password-input" class=" form-control-label label-text align-left" >Document
+									Type:</label>
+							</div>
+							<div class="col-12 col-md-9 documentTypeParent">
+								<select  name="color" class="form-control"
+									data-dojo-attach-point="documenttype"
+									style="width: auto"
+									data-dojo-type="dijit/form/FilteringSelect">
+								</select>
+								
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col col-md-3">
+								<label for="password-input" class=" form-control-label label-text align-left">Document
+									 SubType:</label>
+							</div>
+							<div class="col-12 col-md-9 documentTypeParent">
+								<select  name="color" class="form-control"
+									data-dojo-attach-point="documentsubtype"
+									style="width: auto"
+									data-dojo-type="dijit/form/FilteringSelect">
+								</select>
+								<!--  <small class="help-block form-text">Please enter
+                                                      a complex password</small> -->
+							</div>
+						</div>
+						<div>
+							<div>
+							<label for = "active" class="form-control-label label-text">Active </label>
+							<input type="radio" data-dojo-type="dijit/form/RadioButton" name="Status" value="Active" data-dojo-attach-point="active"/>
+							<label for = "inactive" class="form-control-label label-text">InActive </label>
+							<input type="radio" data-dojo-type="dijit/form/RadioButton" name="Status" value="Inactive" data-dojo-attach-point="inactive" />
+							<label for="all" class="form-control-label label-text">All </label>
+							<input type="radio" data-dojo-type="dijit/form/RadioButton" name="Status" value="All" data-dojo-attach-point="all"/>
+							</div>
+						</div>
+						
+					
+					<div class="card-footer">
+						<button type="submit"
+							data-dojo-attach-event="onClick:runSearch"
+							data-dojo-attach-point="searchbrowse"
+							class="btn btn-success btn-sm">Search</button>
+						<button type="reset"
+							data-dojo-attach-event="onClick:clearSearch"
+							data-dojo-attach-point="searchbrowse"
+							class="btn btn-success btn-sm">Reset</button>
+					</div>
+				</form>
+			</div>	
+				
+	<div data-dojo-attach-point="searchcontentList" 
+				data-dojo-type="ecm/widget/listView/ContentList"
+				class="col-lg-8 card-body" style="    flex: 1 1 0%;height: inherit;max-width: 100000px;"></div>
+		
+	</div> 
+	
+	</div>
+		
+</div>

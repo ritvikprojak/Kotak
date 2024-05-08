@@ -1,0 +1,308 @@
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication- 
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-###################### Main STARTs ######################
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-DB2Database STARTs
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-Loaded the JDBC driver for: SQL
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-SQL loadConnection STARTs
+19 Jul 2019 19:56:53 resourceBundlePackage.ResourceBundleClass-Parameters Fetched via config.properties: [SQL_URI, DB2_PASSWORD, DB2_URI, DB2_DBNAME, SQL_USERID, SQL_DBNAME, SQL_PASSWORD, DB2_USERID]
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-SQL URL : jdbc:sqlserver://192.168.1.54:1433;databaseName=COMP;
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-Printing Connection Object for SQL : ConnectionID:1 ClientConnectionId: c58f711b-1446-4fc6-bf99-f1c81e948fe0
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-SQL dataBase Now Accessed via user : sa
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-## loadConnection ENDs, Returning Connection Object ##
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-DB2Database STARTs
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-Loaded the JDBC driver for: DB2
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-DB2 loadConnection STARTs
+19 Jul 2019 19:56:53 resourceBundlePackage.ResourceBundleClass-Parameters Fetched via config.properties: [SQL_URI, DB2_PASSWORD, DB2_URI, DB2_DBNAME, SQL_USERID, SQL_DBNAME, SQL_PASSWORD, DB2_USERID]
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-db2admin
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-DB2 URL : jdbc:db2://192.168.1.104:50000/COMP
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-Printing Connection Object for DB2 : com.ibm.db2.jcc.t4.b@52aa2946
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-DB2 dataBase Now Accessed via user : db2admin
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-## loadConnection ENDs, Returning Connection Object ##
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.SQLDatabase-SQL Connection unloaded
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-## unloaded SQL connection ## 
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 111
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '111'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 222
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '222'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 333
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '333'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 444
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '444'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 555
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 666
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 777
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 888
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '888'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 999
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 9999
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 111
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 222
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 333
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 444
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 555
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '555'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 666
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '666'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 777
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '777'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 888
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 999
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '999'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-EMP_ID : 9999
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '9999'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication- 
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-###################### Summary of Update Batch Statement ############################
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-###################### Firing Upadate SQL Quries ######################
+19 Jul 2019 19:56:53 dBInterfacePackageImpl.DB2Database-DB2 Connection unloaded
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-## unloaded DB2 connection ##
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '111'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '222'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '333'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '444'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '888'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '555'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '666'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '777'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '999'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '9999'
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-###################### Summary of Update Batch Statement(s) Ends ############################
+19 Jul 2019 19:56:53 dDReplication.MasterSlaveDBreplication-###################### Main ENDs ######################
+19 Jul 2019 19:57:20 dDReplication.MasterSlaveDBreplication- 
+19 Jul 2019 19:57:20 dDReplication.MasterSlaveDBreplication-###################### Main STARTs ######################
+19 Jul 2019 19:57:20 dBInterfacePackageImpl.SQLDatabase-DB2Database STARTs
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-Loaded the JDBC driver for: SQL
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-SQL loadConnection STARTs
+19 Jul 2019 19:57:21 resourceBundlePackage.ResourceBundleClass-Parameters Fetched via config.properties: [SQL_URI, DB2_PASSWORD, DB2_URI, DB2_DBNAME, SQL_USERID, SQL_DBNAME, SQL_PASSWORD, DB2_USERID]
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-SQL URL : jdbc:sqlserver://192.168.1.54:1433;databaseName=COMP;
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-Printing Connection Object for SQL : ConnectionID:1 ClientConnectionId: fa3351cd-7194-4536-a81d-00f675dae23d
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-SQL dataBase Now Accessed via user : sa
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-## loadConnection ENDs, Returning Connection Object ##
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-DB2Database STARTs
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-Loaded the JDBC driver for: DB2
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-DB2 loadConnection STARTs
+19 Jul 2019 19:57:21 resourceBundlePackage.ResourceBundleClass-Parameters Fetched via config.properties: [SQL_URI, DB2_PASSWORD, DB2_URI, DB2_DBNAME, SQL_USERID, SQL_DBNAME, SQL_PASSWORD, DB2_USERID]
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-db2admin
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-DB2 URL : jdbc:db2://192.168.1.104:50000/COMP
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-Printing Connection Object for DB2 : com.ibm.db2.jcc.t4.b@52aa2946
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-DB2 dataBase Now Accessed via user : db2admin
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-## loadConnection ENDs, Returning Connection Object ##
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-		Message:  SQLQUERY Returned ResultSet Row(s)
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.SQLDatabase-SQL Connection unloaded
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-## unloaded SQL connection ## 
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 111
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '111'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 222
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '222'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 333
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '333'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 444
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '444'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 555
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 666
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 777
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 888
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '888'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 999
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 9999
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 8-8-8 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 111
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 222
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 333
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 444
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 555
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '555'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 666
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '666'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 777
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '777'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 888
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 8
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 8-8-8 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 999
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '999'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-CC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOC : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-EMP_ID : 9999
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-LOB : 10
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-RESPONSIBILITY_NAME : 10-10-10 | 10-10-10 : LOB-LOC-CC
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-updateSQL Added to StatementBatch : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '9999'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication- 
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-###################### Summary of Update Batch Statement ############################
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-###################### Firing Upadate SQL Quries ######################
+19 Jul 2019 19:57:21 dBInterfacePackageImpl.DB2Database-DB2 Connection unloaded
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-## unloaded DB2 connection ##
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '111'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '222'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '333'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '444'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '888' WHERE EMP_ID = '888'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '555'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '666'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '777'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '999'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-true : UPDATE KOTAKBACKUP.MASTER_DETAILS_BACKUP SET HR_REPORTING = '9999' WHERE EMP_ID = '9999'
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-###################### Summary of Update Batch Statement(s) Ends ############################
+19 Jul 2019 19:57:21 dDReplication.MasterSlaveDBreplication-###################### Main ENDs ######################

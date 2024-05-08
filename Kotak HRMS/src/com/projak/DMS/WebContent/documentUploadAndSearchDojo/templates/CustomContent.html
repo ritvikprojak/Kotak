@@ -1,0 +1,122 @@
+<div class=ecmCenterPane style="height:100%">
+	<div data-dojo-type="dijit/layout/ContentPane" selected="true"
+		data-dojo-attach-point="creditcardtab">
+		<div class="container-fluid">
+			<div data-dojo-type="dijit.Dialog"
+				data-dojo-attach-point="dialogOne">
+				<div class="row">
+					<div class="col-md-12 card-body card-block">
+						<form dojoType="dijit.form.Form" action="javascript:void(0);"
+							data-dojo-attach-point="dialogcreditcardform">
+							<div class="row form-group">
+								<div class="col col-md-3">
+									<label for="password-input" class=" form-control-label">Status:</label>
+								</div>
+								<div class="col-12 col-md-9 documentTypeParent">
+									<select class="form-control" required="required"
+										data-dojo-attach-point="dialogStatus"
+										dojoType="dijit.form.FilteringSelect">
+									</select>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 card-body card-block">
+					<form data-dojo-type="dijit/form/Form" action="javascript:void(0);"
+						data-dojo-attach-point="employeeform">
+						<div class="row form-group">
+							<div class="col col-md-3">
+								<label for="text-input" class=" form-control-label">Employee Id:</label>
+							</div>
+							<div class="col col-md-9 creditCardParent">
+								<div class="input-group">
+									<input data-dojo-attach-point="EmployeeId"data-dojo-attach-event='onChange:checkEmployee '
+										data-dojo-type="dijit/form/ValidationTextBox"
+										required="required" class="form-control">
+									
+								</div>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col col-md-3">
+								<label for="password-input" class=" form-control-label">Document
+									Type:</label>
+							</div>
+							<div class="col-12 col-md-9 documentTypeParent">
+								<select required="required" name="color" class="form-control"
+									data-dojo-attach-point="documenttype"
+									style="width: 400px;"
+									data-dojo-type="dijit/form/FilteringSelect">
+								</select>
+								
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col col-md-3">
+								<label for="password-input" class=" form-control-label">Document
+									 SubType:</label>
+							</div>
+							<div class="col-12 col-md-9 documentTypeParent">
+								<select required="required" name="color" class="form-control"
+									data-dojo-attach-point="documentsubtype"
+									style="width: 400px;"
+									data-dojo-type="dijit/form/FilteringSelect">
+								</select>
+								<!--  <small class="help-block form-text">Please enter
+                                                      a complex password</small> -->
+							</div>
+						</div>
+						<div class="card-footer">
+							<button type="submit" data-dojo-attach-point="browse"
+								data-dojo-attach-event='onClick:browseEmployeeDocument'
+								class="btn btn-success btn-sm">Browse</button>
+						</div>
+					</form>
+					<div data-dojo-attach-point="buttonArea">
+				<div class="warningText" align="left">* For Upload pdf/jpeg/jpg/tiff files are only allowed for upload</div>
+				</div>
+				
+		
+								
+								
+			<!-- 	<div data-dojo-attach-point="contentList" class="col-md-6"
+					style="height: 300px; width: 90%"
+					
+					data-dojo-type="ecm/widget/listView/ContentList"></div> -->
+			</div>
+		
+		
+		
+		</div>
+		</div>
+	<!-- 	<div style=" height: 100%" >
+    <div data-dojo-type="dijit/layout/TabContainer" style=" height: 45% ">
+        <div data-dojo-type="dijit/layout/ContentPane" title="Draft" data-dojo-props="selected:true" >
+            <div class="D" data-dojo-attach-point="contentUploadListDraft"  
+					
+					
+					data-dojo-type="ecm/widget/listView/ContentList"></div>
+        </div>
+        
+   
+        <div data-dojo-type="dijit/layout/ContentPane" title="Verify" data-dojo-props="selected:true" data-dojo-attach-event='onShow:updateSubmitMandates'>
+            <div class="S" data-dojo-attach-point="contentUploadListSubmit" 
+					
+					
+					data-dojo-type="ecm/widget/listView/ContentList"></div>
+        </div>
+         <div data-dojo-type="dijit/layout/ContentPane" title="Rejected" data-dojo-props="selected:true" data-dojo-attach-event='onShow:updateRejectMandates'>
+            <div class="R" data-dojo-attach-point="contentUploadListRejected" 
+					
+					
+					data-dojo-type="ecm/widget/listView/ContentList"></div>
+        </div>
+        
+    </div>
+</div> -->
+
+	
+</div>

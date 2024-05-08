@@ -1,0 +1,309 @@
+<div>
+	<table class="propertyTable" role="presentation">
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_repoParam">Repository ID</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_repoParam" data-dojo-attach-point="repoParam" data-dojo-attach-event="onChange: _onParamChange" maxLength="64" data-dojo-type="ecm.widget.ValidationTextBox" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="hrdmsrepo"></div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_employeeFolderParam">Root folder path</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_employeeFolderParam" data-dojo-attach-point="rootFolderParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="/DMS HR Documents/"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_upmParam">UPM URL</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_upmParam" data-dojo-attach-point="upmParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value=""></div>
+			</td>
+		</tr>
+		
+      
+        
+		
+	
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_securityLevelParam">SecurityLevel Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_securityLevelParam" data-dojo-attach-point="securityLevelParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_SecurityLevel"></div>
+			</td>
+		</tr> -->
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_workerClassIntParam">WorkerClass Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_workerClassIntParam" data-dojo-attach-point="workerClassIntParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_WorkerClass_Int"></div>
+			</td>
+		</tr> -->
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_preferedBranchCodeParam">PreferedBranchCode Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_preferedBranchCodeParam" data-dojo-attach-point="preferedBranchCodeParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_PreferedBranchCode"></div>
+			</td>
+		</tr> -->
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_preferedBranchNameParam">PreferedBranchName Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_preferedBranchNameParam" data-dojo-attach-point="preferedBranchNameParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_PreferredBranchName"></div>
+			</td>
+		</tr> -->
+		 <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_scannedUserParam">ScannedUser Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_scannedUserParam" data-dojo-attach-point="scannedUserParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_DocumentUploadUser"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_scannedDateParam">Scanned Date</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_scannedDateParam" data-dojo-attach-point="scannedDateParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_DocumentUploadDate"></div>
+			</td>
+		</tr> 
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_approvedUserParam">ApproverUser Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_approvedUserParam" data-dojo-attach-point="approvedUserParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_ConfirmedUser"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_approvedDateParam">Approver Date</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_approvedDateParam" data-dojo-attach-point="approvedDateParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_ConfirmedDate"></div>
+			</td>
+		</tr> -->
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_documentTypeParam">Document Type Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_documentTypeParam" data-dojo-attach-point="documentTypeParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_DocumentType"></div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_documentSubTypeParam">Document SubType Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_documentSubTypeParam" data-dojo-attach-point="documentSubTypeParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_DocumentSubType"></div>
+			</td>
+		</tr>
+		
+		
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_employeeIdParam">Employee ID Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_employeeIdParam" data-dojo-attach-point="employeeIdParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_EmployeeCode"></div>
+			</td>
+		</tr>
+       <!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_referenceIdParam">Reference No Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_referenceIdParam" data-dojo-attach-point="referenceIdParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_DocumentReferenceNumber"></div>
+			</td>
+		</tr> -->
+       
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_draftSearchParam">Draft Search Value</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_draftSearchParam" data-dojo-attach-point="draftSearchParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="26,50"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_submitSearchParam">Submit Search Value</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_submitSearchParam" data-dojo-attach-point="submitSearchParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="50,80,120"></div>
+			</td>
+		</tr> -->
+        <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_compensationDocClassParam">Compensation Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_compensationDocClassParam" data-dojo-attach-point="compensationDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_Compensation"></div>
+			</td>
+		</tr>
+        <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_discDocClassParam">Disciplinary Action Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_discDocClassParam" data-dojo-attach-point="discDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_DisciplinaryAction"></div>
+			</td>
+		</tr>
+        <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_exitDocClassParam">Exit Management Action Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_exitDocClassParam" data-dojo-attach-point="exitmanagementDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_ExitManagement"></div>
+			</td>
+		</tr>
+        <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_joiningDocClassParam">Joining Documents Action Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_joiningDocClassParam" data-dojo-attach-point="joiningDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_JoiningDocuments"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_miscDocClassParam">Miscellaneous Action Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_miscDocClassParam" data-dojo-attach-point="miscDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_Misc"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_nominationDocClassParam">Nominations Action Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_nominationDocClassParam" data-dojo-attach-point="nominationsDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_Nominations"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_testDocClassParam">Testimonial Verification Action Document Class</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_testDocClassParam" data-dojo-attach-point="testimonialDocClassParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_TestimonialVerification"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_dMSDocumentStatusParam">Document Status Prop</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_dMSDocumentStatusParam" data-dojo-attach-point="dMSDocumentStatusParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="KDMS_DocumentStatus"></div>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_aesKey">AESKey</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_aesKey" data-dojo-attach-point="aesKey" data-dojo-attach-event="onChange: _onParamChange" maxLength="64" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="Sumit"></div>
+			</td>
+		</tr>
+		
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_dMSDivCodeParam">Division Code</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_dMSDivCodeParam" data-dojo-attach-point="dMSDivCodeParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_DivisionCode"></div>
+			</td>
+		</tr> -->
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_dMSCapturerBranchParam">Capturer Branch Code</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_dMSCapturerBranchParam" data-dojo-attach-point="dMSCapturerBranchParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_CapturerBranchCode"></div>
+			</td>
+		</tr> -->
+		
+		<!-- <tr>
+			<td class="propertyRowLabel">
+				<span class="required">*</span>
+				<label for="${id}_dMSCapturerSecurityParam">Capturer Security Level</label>&nbsp;
+			</td>
+			<td class="propertyRowValue">
+			   <div id="${id}_dMSCapturerSecurityParam" data-dojo-attach-point="dMSCapturerSecurityParam" data-dojo-attach-event="onChange: _onParamChange" data-dojo-type="dijit.form.Textarea" 
+			   		required="true" trim="true" propercase="false" intermediateChanges="true" value="DMS_CapturerSecurityLevel"></div>
+			</td>
+		</tr>  -->
+		
+		
+	</table>
+</div>

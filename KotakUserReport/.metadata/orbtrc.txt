@@ -1,0 +1,99 @@
+15:15:08.811 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:08.814 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x57736e41646d696e4e616d6553657276696365  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:08.817 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:08.819 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:29.518 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x57736e41646d696e4e616d6553657276696365  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:29.520 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:29.522 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:29.525 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x57736e41646d696e4e616d6553657276696365  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:29.527 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)
+
+15:15:29.529 com.ibm.rmi.iiop.Connection doLocateRequestWork:2956 WT=5 ORBRas[default]  org.omg.CORBA.OBJECT_NOT_EXIST: Couldn't find subcontract for key 0x494e4954  vmcid: 0x4942f000  minor code: 2949  completed: No
+	at com.ibm.rmi.iiop.ORB.locate(ORB.java:514)
+	at com.ibm.CORBA.iiop.ORB.locate(ORB.java:1551)
+	at com.ibm.rmi.iiop.Connection.doLocateRequestWork(Connection.java:2937)
+	at com.ibm.rmi.iiop.Connection.respondTo(Connection.java:2840)
+	at com.ibm.rmi.iiop.Connection.doWork(Connection.java:2640)
+	at com.ibm.rmi.iiop.WorkUnitImpl.doWork(WorkUnitImpl.java:63)
+	at com.ibm.rmi.iiop.WorkerThread.run(ThreadPoolImpl.java:202)
+	at java.lang.Thread.run(Unknown Source)

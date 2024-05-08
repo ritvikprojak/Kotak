@@ -1,0 +1,63 @@
+
+<div class="ecmCenterPane">
+	<div data-dojo-type="idx/layout/BorderContainer"  
+		data-dojo-props="gutters:true">
+		<div data-dojo-attach-point="topPane"
+			data-dojo-type="dijit/layout/ContentPane"
+			data-dojo-props="splitter:false,region:'top'">
+			<!-- <div class="content" style="float: left">
+				Worker Class : <label class="js-acc-btn"
+					data-dojo-attach-point="workerclass">XX</label> | Branch No : <label
+					class="js-acc-btn" data-dojo-attach-point="branchno">XXX</label> | Branch Name : <label
+					class="js-acc-btn" data-dojo-attach-point="branchname">XXX</label>
+			</div> -->
+			<div class="content">
+				<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6" align="center"><h4 class="mainTitle">HR DOCUMENT MANAGEMENT SYSTEM</h4>
+				<h4 class="mainTitle">V 1.01</h4></div>
+				<div class="col-md-3" style="padding-left: 140px; padding-top: 35px">
+								Welcome,<label class="js-acc-btn"
+					data-dojo-attach-point="loginusername">No User</label><br><label
+					class="js-acc-btn" data-dojo-attach-point="loginempid" >XXXXX</label>&nbsp;&nbsp;
+				</div>
+			</div>
+			</div>
+		</div>
+		<div data-dojo-attach-point="centerPane"
+			data-dojo-type="dijit/layout/ContentPane"
+			data-dojo-props="region:'center'" style="height:50%;overflow:auto">
+			<div style="text-align: center">
+				
+				<div class="col-lg-12">
+					<hr />
+				</div>
+				<div data-dojo-attach-point="buttonArea">
+					<div data-dojo-attach-point="uploadSectionButton"
+						style="display: inline-block;"></div>
+					<div data-dojo-attach-point="searchSectionButton"
+						style="display: inline-block;"></div>
+				</div>
+				<div style="position:absolute;top:20px;right:10px">
+					<a href="javascript:void(0)" class="dijitButtonNode dijitInline dijitReset"
+						data-dojo-attach-event="onClick:loadHome"
+						data-dojo-attach-point="gotohome">
+						Go To Home
+					</a>
+				</div>
+				<div data-dojo-attach-point="sectionArea" doLayout="false">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--  Please add your configuration pane -->
+	<!--  For example
+    <div data-dojo-type="idx/layout/BorderContainer" data-dojo-props="gutters:true">
+		<div data-dojo-attach-point="topPane" data-dojo-type="dijit/layout/ContentPane" 
+				data-dojo-props="splitter:true,region:'top'">
+		</div>
+		<div data-dojo-attach-point="centerPane" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+		</div>
+	</div>
+    -->
+</div>

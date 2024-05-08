@@ -1,0 +1,62 @@
+<div  class="claro">
+
+<h3 align="left"><b>USER AUDIT REPORT</b></h3>
+	
+
+	<div data-dojo-attach-point="objStorediv" id="objStorediv">		
+	   <table >
+	   <tr>
+			<td height="30"><b><label data-dojo-attach-point="objStorelabel"></label></b></td>
+			<td width="100"><div data-dojo-attach-point="objStoreCombo"></div>
+			</td>
+	   </tr>
+       </table>
+</div>
+<div>
+	<table>
+	<tr><td height="30"><b><label data-dojo-attach-point="reports"></label></b></td><td><div data-dojo-attach-point="reportsComboBox" style="width: 20em !important" ></div></td></tr>
+	</table> 
+		
+</div>
+				
+<div data-dojo-attach-point="tableDates" id="tableDates">
+		<table >
+		<tr>
+			<td height="30"><b><label data-dojo-attach-point="sdate"></label></b></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;<input data-dojo-attach-point="meetingFromDate" data-dojo-type="ecm/widget/DatePicker" value="now" style="width: 15em !important" data-dojo-attach-event='onChange: fromDateValidation' data-dojo-props="constraints:{max: new Date()}" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td height="30"><b><label data-dojo-attach-point="edate" ></label></b></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;<input data-dojo-attach-point="meetingToDate" data-dojo-type="ecm/widget/DatePicker"  value="now" style="width: 15em !important" data-dojo-attach-event='onChange: toDateValidation' data-dojo-props="constraints:{max: new Date()}"/>
+			</td>
+		</tr>
+        </table>
+</div>
+
+<div data-dojo-attach-point="documentdiv" id="documentdiv">
+		
+	   <table >
+	   <tr>
+			<td height="30"><b><label data-dojo-attach-point="doclabel"></label></b></td>
+			<td width="100"><div data-dojo-attach-point="documentCombo"></div>
+			</td>
+	   </tr>
+       </table>
+</div>
+
+<br><br><br>
+		
+		<div data-dojo-attach-point="buttondiv" id="buttondiv">
+		<table>
+		    <tr>
+			<td height="30" style="background:#fff;"></td>
+		
+		    <td style="background:#fff;"><button data-dojo-type="dijit/form/Button" 
+				data-dojo-attach-event="onClick:ReportsGeneration">Generate Report</button>
+			</td>
+	      </tr>				
+	  </table>
+	</div>
+</div>

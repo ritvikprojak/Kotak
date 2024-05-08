@@ -1,0 +1,60 @@
+@import "bootstrap.min.css";
+@import "fontawesome-all.min.css";
+
+.uploadSearchIcon {
+	width: 32px;
+	height: 32px;
+	background: url('images/graph.png') no-repeat;
+}
+
+.warningText {
+	background-color: #FFD1C9;
+	border: 2px solid #1C6EA4;
+}
+
+.uploadButtonIcon .dijitButtonContents{
+	background: url('images/cloud-backup-up-arrow.png') no-repeat;
+	border: none;
+	padding-top: 115px;
+	padding-bottom: 45px;
+	padding-right: 85px;
+	padding-left: 45px;
+}
+
+.searchButtonIcon .dijitButtonContents{
+	background: url('images/magnifier.png') no-repeat;
+	border: none;
+	padding-top: 115px;
+	padding-bottom: 45px;
+	padding-right: 85px;
+	padding-left: 45px;
+}
+
+.align-left{
+	float:left;
+}
+
+.backButtonIcon {
+	width: 16px;
+	height: 16px;
+	background: url('images/left-arrow.png') no-repeat;
+}
+
+.containerCreditCard {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width:30%;
+}
+
+.label-text{
+	margin-top: 15px;
+    font-weight: bolder !important;
+}
+
+.ecmScrollPane .centerContent{
+	right:unset;
+
+}
+
+.viewerToolbarContainer .dijitButton { display:none !important; }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="lib"/>
+	<classpathentry kind="lib" path="lib/Jace.jar"/>
+	<classpathentry kind="lib" path="lib/tika-core-1.24.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Lenovo/Desktop/Kotak/File Restriction/lib/navigatorAPI.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
